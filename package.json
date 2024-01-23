@@ -6,7 +6,7 @@
   "description": "My portfolio built with React",
   "main": "vite.config.js",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --force",
     "start": "vite",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",

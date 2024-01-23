@@ -1,10 +1,18 @@
 import './App.css';
-import BucketList from './components/BucketList';
+import About from './components/About'; 
+import Footer from './components/Footer';
+import Header from './components/Header';
+import Navbar from './components/Navigation';
+import Project from './components/Project';
 
 function App() {
   return (
     <div className="bucket-app">
-      <BucketList />
+      <Navbar />
+      <Header />
+      <About />
+      <Project />
+      <Footer />
     </div>
   );
 }

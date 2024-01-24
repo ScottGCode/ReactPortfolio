@@ -1,41 +1,49 @@
-.header-navbar-container {
+/* App.css */
+
+.react-app {
+  min-height: 100vh;
   display: flex;
+  flex-direction: column; /* Arrange children vertically */
+}
+
+.header-container {
   justify-content: space-between;
   align-items: center;
   background-color: #333;
   padding: 10px;
 }
-/* Add styles for Header */
+
 header {
-    background-color: #333;
-    padding: 10px;
-    display: flex;
-    justify-content: start;
-    color: white;
+  background-color: #333;
+  padding: 10px;
+  display: flex;
+  align-items: center; /* Align items vertically */
+  color: white;
 }
-/* Add styles for Navbar */
+
 nav {
-    background-color: #333;
-    padding: 10px;
+  background-color: #333;
+  padding: 10px;
+  margin-left: auto;
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: flex-end;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
 }
 
 li {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    font-size: 16px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
 }
 
 /* Add styles for Footer */
@@ -43,6 +51,7 @@ footer {
   background-color: #333;
   padding: 20px;
   text-align: center;
+  margin-top: auto;
 }
 
 .social-icons {
@@ -59,4 +68,21 @@ footer {
 
 .social-icons a:hover {
   color: #61dafb; /* Change the color on hover if needed */
+}
+
+.about-me-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.about-me-container h2 {
+  font-size: 28px;
+  color: #333;
+}
+
+.about-me-container p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #666;
 }

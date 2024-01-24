@@ -10,14 +10,13 @@ import Project from './components/Project';
 function App() {
   return (
     <Router>
-    <div className="bucket-app">
-      <Routes>
-        <Route path="/about" component={About} />
-        <Route path="/projects" component={Project} />
-      </Routes>
+    <div className="react-app">
       <Header />
-      <About />
-      <Project />
+      <Routes>
+        <Route path="/" element={<About />} />
+        <Route path="/about" component={<About />} />
+        <Route path="/projects" component={<Project />} />
+      </Routes>
       <Footer />
     </div>
     </Router>

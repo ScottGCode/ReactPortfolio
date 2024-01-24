@@ -3,13 +3,11 @@ import Navbar from './Navigation'
 
 function Header() {
     return (
-        <div className='header-navbar-container'>
+        <div className='header-container'>
         <header>
             <h1>Rutherford</h1>
-        </header>
-        <div>
             <Navbar />
-        </div>
+        </header>
         </div>
     );
 }

@@ -1,0 +1,62 @@
+.header-navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px;
+}
+/* Add styles for Header */
+header {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: start;
+    color: white;
+}
+/* Add styles for Navbar */
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Add styles for Footer */
+footer {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.social-icons a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #61dafb; /* Change the color on hover if needed */
+}

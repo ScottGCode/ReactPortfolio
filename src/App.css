@@ -14,6 +14,8 @@
   flex-direction: column; /* Arrange children vertically */
   background-color: var(--primary-color);
   color: var(--text-color);
+  font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
 }
 
 .header-container {
@@ -26,8 +28,12 @@ header {
   padding: 10px;
   display: flex;
   align-items: center; /* Align items vertically */
-  color: white;
-  font-family: 'Roboto', sans-serif; /* Use a modern font, replace 'Roboto' with your desired font */
+  color: white; /* Use a modern font, replace 'Roboto' with your desired font */
+}
+
+header h1 a:hover {
+  color: var(--accent-color); /* Change text color on hover */
+  text-decoration: underline; /* Underline on hover */
 }
 
 nav {
@@ -52,7 +58,11 @@ a {
   text-decoration: none;
   color: var(--text-color);
   font-weight: bold;
-  font-size: 16px;
+}
+
+nav ul li a:hover {
+  color: var(--accent-color); /* Change text color on hover */
+  border-bottom: 2px solid var(--accent-color); /* Add a bottom border on hover */
 }
 
 /* Add styles for Footer */
@@ -67,6 +77,17 @@ footer {
   display: flex;
   justify-content: center;
   margin-top: 10px;
+}
+
+/* Apply grow effect on hover for all links and icons */
+.social-icons a,
+header h1 a {
+  transition: transform 0.2s ease-in-out; /* Add smooth transition effect */
+}
+
+.social-icons a:hover,
+header h1 a:hover {
+  transform: scale(1.1); /* Increase size on hover */
 }
 
 .social-icons a {
@@ -167,6 +188,58 @@ button {
   color: var(--accent-color); /* Darker accent color on hover */
 }
 
+.resume-container {
+  display: grid;
+  justify-content: space-between;
+  min-height: 100vh;
+  padding: 40px;
+  background-color: var(--secondary-color);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.resume-container h2,
+.resume-container h3,
+.resume-container p,
+.resume-container ul,
+.resume-container li {
+  color: var(--text-color);
+  list-style-type: square;
+}
+
+.resume-container a {
+  color: var(--link-color);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.resume-container a:hover {
+  color: var(--accent-color);
+}
+
+.about-me-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 25px;
+}
+
+.about-me-container h2 {
+  margin-right:auto; 
+}
+
+.image-container {
+  margin-bottom: 20px;
+}
+
+.profile-image {
+  width: 100%;
+  max-width: 500px; /* Adjust the maximum width as needed */
+  border-radius: 100px; /* Optional: Add border-radius for rounded corners */
+  margin-bottom: 50px; /* Optional: Add margin to space the image from the text */
+}
+
 /* Media queries for mobile-first design */
 @media only screen and (max-width: 600px) {
   .header-container {
@@ -192,7 +265,8 @@ button {
 
   .about-me-container,
   .contact-me-container,
-  .project-container {
+  .project-container,
+  .resume-container {
     padding: 20px;
   }
 

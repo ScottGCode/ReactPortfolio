@@ -1,5 +1,5 @@
 import React from 'react'
-import profileImage from '/Users/scottrutherford/bootcamp/ReactPortfolio/Assets/Images/Screenshot 2024-01-25 at 9.30.16 AM.png'
+import profileImage from '/Users/scottrutherford/bootcamp/ReactPortfolio/src/Assets/Images/Screenshot 2024-01-25 at 9.30.16 AM.png'
 
 function About() {
     return (

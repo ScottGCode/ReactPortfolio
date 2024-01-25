@@ -86,3 +86,76 @@ footer {
   line-height: 1.5;
   color: #666;
 }
+
+.contact-me-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.contact-me-container h2 {
+  font-size: 28px;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 8px;
+}
+
+input,
+textarea {
+  padding: 8px;
+  margin-bottom: 16px;
+}
+
+button {
+  background-color: #61dafb;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.project-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.project-container h2 {
+  font-size: 28px;
+  color: #333;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project {
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+}
+
+.project h3 {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.project-links a {
+  display: block;
+  margin-top: 5px;
+  text-decoration: none;
+  color: #61dafb;
+}

@@ -14,9 +14,10 @@ Being a web developer means being part of a community. I needed a place to share
 
 To use this application follow the link for the deployed application.
 
---> [Deployed Application](https://main--cosmic-druid-49dd6b.netlify.app/)
+--> [Deployed Application Link](https://main--cosmic-druid-49dd6b.netlify.app/)
 
-![screenshot](./src/Assets/Images/Screenshot%202024-01-26%20at%201.01.39 PM.png)     
+Preview:
+![screenshot](<src/Assets/Images/Screenshot 2024-01-26 at 1.01.39 PM.png>)     
   
 ## Credits
 

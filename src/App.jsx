@@ -8,6 +8,7 @@ import Resume from './components/Resume'
 import Project from './components/Project';
 import ContactMe from './components/ContactMe';
 
+// Main App component and the structure of the web application
 function App() {
   return (
     <Router>

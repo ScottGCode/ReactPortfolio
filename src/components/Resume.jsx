@@ -1,4 +1,11 @@
+// Resume component
 import React from 'react'; 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faJs, faReact, faNode, faHtml5, faCss3 } from '@fortawesome/free-brands-svg-icons';
+
+// Adding icons to library 
+library.add(faJs, faReact, faNode, faHtml5, faCss3);
 
 const Resume = () => {
     return (
@@ -13,13 +20,12 @@ const Resume = () => {
             </p>
             <h2>Proficiencies</h2>
             <ul>
-                <li>JavaScript (Es6+)</li>
-                <li>React</li>
-                <li>Express.js</li>
-                <li>Node.js</li>
-                <li>MongoDB</li>
-                <li>HTML</li>
-                <li>CSS</li>
+            <li><FontAwesomeIcon icon={faJs} /> JavaScript (Es6+)</li>
+                <li><FontAwesomeIcon icon={faReact} /> React</li>
+                <li><FontAwesomeIcon icon={faNode} /> Express.js</li>
+                <li><FontAwesomeIcon icon={faNode} /> Node.js</li>
+                <li><FontAwesomeIcon icon={faHtml5} /> HTML</li>
+                <li><FontAwesomeIcon icon={faCss3} /> CSS</li>
             </ul>
         </div>
     );

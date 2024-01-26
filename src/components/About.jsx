@@ -1,3 +1,4 @@
+// AboutMe component. 
 import React from 'react'
 import profileImage from '../Assets/Images/Screenshot 2024-01-25 at 9.30.16 AM.png';
 

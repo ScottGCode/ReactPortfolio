@@ -1,12 +1,15 @@
+//ContactMe component 
 import React, { useState } from 'react';
 
 function ContactMe() {
+    // State variables for form fields and error handling
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
     const [emailError, setEmailError] = useState('');
     const [nameError, setNameError] = useState('');
 
+    // Function to validate email format using regex
     const validateEmail = () => {
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         if (!emailRegex.test(email)) {
@@ -15,6 +18,7 @@ function ContactMe() {
             setEmailError('');
         }
     };
+    // Event handler for field blur to trigger validation 
     const handleBlur = (field) => {
         if (field === 'name' && !name.trim()) {
             setNameError('Name is required');
@@ -22,6 +26,7 @@ function ContactMe() {
             validateEmail();
         }
     };
+    // Event handler for field changes 
     const handleChange = (e) => {
         const { name, value } = e.target;
 
@@ -38,9 +43,10 @@ function ContactMe() {
             setMessage(value);
         }
     };
+    // Event handler for form sumbission 
     const handleSubmit = (e) => {
         e.preventDefault();
-
+        // Form validation and submission 
         if(!name.trim()) {
             setNameError('Name is required');
             return;
@@ -54,6 +60,7 @@ function ContactMe() {
         setEmail('');
         setMessage('');
     }
+    // JSX structure for ContactMe component. 
     return (
         <div className="contact-me-container">
             <h2>Contact Me</h2>

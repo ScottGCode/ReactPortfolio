@@ -1,3 +1,4 @@
+// Project component 
 import React from 'react';
 import jateImage from '../Assets/Images/Screenshot 2024-01-17 at 5.54.14 PM.png';
 import weatherImage from '../Assets/Images/Screenshot 2023-10-02 at 11.41.49 PM.png';

@@ -16,6 +16,8 @@ To use this application follow the link for the deployed application.
 
 --> [Deployed Application](https://main--cosmic-druid-49dd6b.netlify.app/)
 
+![screenshot](./src/Assets/Images/Screenshot%202024-01-26%20at%201.01.39 PM.png)     
+  
 ## Credits
 
 University of Utah Coding Bootcamp Instructor and Teaching Assistants. React documentation. Vite documentation. Freecodecamp.com tutorial. 

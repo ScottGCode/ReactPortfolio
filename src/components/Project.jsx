@@ -1,10 +1,10 @@
 import React from 'react';
-import jateImage from '../Assets/images/Screenshot 2024-01-17 at 5.54.14 PM.png';
-import weatherImage from '../Assets/images/Screenshot 2023-10-02 at 11.41.49 PM.png';
-import homeImage from '../Assets/images/Screenshot 2023-10-11 at 7.25.20 PM.png';
-import noteImage from '../Assets/images/Screenshot 2023-11-08 at 11.07.31 PM.png';
-import workImage from '../Assets/images/Screenshot 2023-09-22 at 1.07.38 PM.png';
-import quizImage from '../Assets/images/Screenshot 2023-09-19 at 12.32.33 AM.png';
+import jateImage from '../Assets/Images/Screenshot 2024-01-17 at 5.54.14 PM.png';
+import weatherImage from '../Assets/Images/Screenshot 2023-10-02 at 11.41.49 PM.png';
+import homeImage from '../Assets/Images/Screenshot 2023-10-11 at 7.25.20 PM.png';
+import noteImage from '../Assets/Images/Screenshot 2023-11-08 at 11.07.31 PM.png';
+import workImage from '../Assets/Images/Screenshot 2023-09-22 at 1.07.38 PM.png';
+import quizImage from '../Assets/Images/Screenshot 2023-09-19 at 12.32.33 AM.png';
 
 function Project() {
     const projects = [

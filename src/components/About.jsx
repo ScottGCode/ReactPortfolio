@@ -1,5 +1,5 @@
 import React from 'react'
-import profileImage from '../Assets/images/Screenshot 2024-01-25 at 9.30.16 AM.png';
+import profileImage from '../Assets/Images/Screenshot 2024-01-25 at 9.30.16 AM.png';
 
 function About() {
     return (
